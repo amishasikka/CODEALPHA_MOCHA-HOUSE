@@ -21,7 +21,6 @@ body {
 
 @media (min-width: 375px) {
   section {
-    display: flex;
     padding: 1rem 1.5rem;
   }
 
@@ -33,39 +32,30 @@ body {
     display: flex;
   }
 
-  .navbar {
-    justify-content: space-evenly;
-  }
-
   .nav {
     align-items: center;
+    
   }
 
   .logo {
-    width: 100%;
-    height: 100%;
-    margin-right: 2rem;
-  }
+    display: block;
 
-  .logo img {
-    width: 88px;
-    height: 6.625rem;
+    img {
+      width: 88px;
+      height: auto;
+    }
   }
-
   .nav-links ul {
-    justify-content: space-evenly;
     list-style: none;
   }
-
-  .nav-links li {
-    margin-right: 0.5rem;
-  }
-
-  a {
+  .nav-links ul li a {
     text-decoration: none;
     color: var(--ivory);
     font-weight: 500;
     font-family: var(--normal-font);
     font-size: 0.875rem;
+  }
+  .nav-btns .login-btn{
+    text-decoration: none;
   }
 }

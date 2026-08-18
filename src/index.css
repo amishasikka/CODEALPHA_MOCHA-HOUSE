@@ -2,15 +2,15 @@
   section{
     padding: 1rem 3rem;
   }
-  .logo{
-    margin-right: 10rem;
+  .nav{
+    width: 100%;
+    justify-content: space-between;
   }
-  .nav-links li{
-    margin-right: 2rem;
+  .nav-links ul{
+    width: 12rem;
+    justify-content: space-between;
   }
-  .nav-links li:last-child{
-    margin-right: 6rem;
-  }
+  
   .login-btn{
     border: 2px solid var(--mocha);
     padding: 0.5rem 1.5rem;
@@ -30,15 +30,6 @@
   section{
     padding: 1rem 4rem;
   }
-  .logo{
-    margin-right: 18rem;
-  }
-  .nav-links li{
-    margin-right: 3rem;
-    
-  }
-  .nav-links li:last-child{
-    margin-right:12rem;
-  }
+  
 }
 
