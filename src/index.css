@@ -1,34 +1,24 @@
 @media (min-width: 768px) {
   section{
-    padding: 1rem 3rem;
+    padding: 2rem 3rem;
   }
-  .nav{
-    width: 100%;
-    justify-content: space-between;
+  .nav-links, .nav-btns {
+    display: block;
   }
   .nav-links ul{
     width: 12rem;
     justify-content: space-between;
   }
-  
-  .login-btn{
-    border: 2px solid var(--mocha);
-    padding: 0.5rem 1.5rem;
-    border-radius: 0.5rem;
-    font-weight:600;
-    background-color: var(--ivory);
-    opacity: 0.9;
-    color: var(--mocha);
-  }
   .login-btn:hover{
     background-color: var(--mocha);
     color: var(--ivory);
+    border-radius: 0.5rem;
   }
 }
 
 @media (min-width: 1024px) {
   section{
-    padding: 1rem 4rem;
+    padding: 2rem 4rem;
   }
   
 }

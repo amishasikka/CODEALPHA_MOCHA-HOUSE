@@ -6,18 +6,24 @@ export default function Navbar(){
             <section className="navbar">
                 <div className="nav">
                     <Link to="/" className="logo">
-                        <img src="/src/assets/coffee-logo.png" alt="Coffee Logo"/>
+                        <img src="/src/assets/logo.png" alt="Coffee Logo"/>
                     </Link>
                     <div className="nav-links">
                         <ul>
-                            <li><Link to="/">Home</Link></li>
-                            <li><Link to="/products">Menu</Link></li>
-                            <li><Link to="/cart">Cart</Link></li>
+                            <li><Link to="/">home</Link></li>
+                            <li><Link to="/products">menu</Link></li>
+                            <li><Link to="/cart">cart</Link></li>
                         </ul>
                     </div>
 
+                    <div className="menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
                     <div className="nav-btns">
-                        <Link to="/login" className="login-btn">Login</Link>
+                        <Link to="/login" className="login-btn">login</Link>
                     </div>
                     
                 </div>
