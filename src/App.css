@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", playfair;
 }
 
 :root {
@@ -11,6 +10,8 @@
   --caramel: #C89B5A;
   --cream: #F6EFE8;
   --ivory: #FFF9F3;
+  --normal-font: 'Poppins', sans-serif;
+  --coffee-font: playfair-display, serif;
 }
 
 body {
@@ -64,5 +65,7 @@ body {
     text-decoration: none;
     color: var(--ivory);
     font-weight: 500;
+    font-family: var(--normal-font);
+    font-size: 0.875rem;
   }
 }
