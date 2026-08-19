@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function Navbar(){
+
+    const [menuOpen , setMenuOpen] = useState(false);
     return (
         <>
             <section className="navbar">
@@ -16,7 +19,7 @@ export default function Navbar(){
                         </ul>
                     </div>
 
-                    <div className="mobile-menu">
+                    <div className={`mobile-menu : ${menuOpen ? "open" : ""}`}>
                         <ul>
                             <li><Link to="/">home</Link></li>
                             <li><Link to="/products">menu</Link></li>
@@ -30,7 +33,9 @@ export default function Navbar(){
                     </div>
 
                     <div className="menu">
-                        <img src="/src/assets/menu-open.png" alt="Menu Icon"/>
+                        <img src={menuOpen ? "/src/assets/menu-close.png" : 
+                        "/src/assets/menu-open.png"} onClick={() => setMenuOpen(!menuOpen)} 
+                        alt={menuOpen ? "Menu Close" : "Menu Open"}/>
                     </div>
                     
                 </div>
