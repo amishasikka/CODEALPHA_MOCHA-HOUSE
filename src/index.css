@@ -9,6 +9,10 @@
     width: 12rem;
     justify-content: space-between;
   }
+  .nav-links ul li a:hover{
+    color: var(--espresso);
+    text-decoration:wavy underline;
+  }
   .login-btn:hover{
     background-color: var(--mocha);
     color: var(--ivory);
@@ -18,8 +22,19 @@
 
 @media (min-width: 1024px) {
   section{
-    padding: 2rem 4rem;
+    padding: 2rem 6rem;
   }
-  
+  .nav-links ul li a, .nav-btns .login-btn{
+    font-size: 1.3rem;
+  }
+  .nav-links ul{
+    width: 15rem;
+  }
+  .logo {
+    img{
+      width: 9rem;
+      }
+    }
 }
+
 

@@ -50,18 +50,14 @@ body {
   .nav-links ul {
     list-style: none;
   }
-  .nav-links ul li a {
+  .nav-links ul li a , .nav-btns .login-btn{
     text-decoration: none;
     color: var(--mocha);
     font-weight: 600;
     font-size: 1.06rem;
+    letter-spacing: .5px;
   }
   .nav-btns .login-btn{
-    text-decoration: none;
     padding: 0.5rem 1.5rem;
-    font-weight: 600;
-    color: var(--mocha);
-    letter-spacing: .5px;
-    font-size: 1.06rem;
   }
 }
