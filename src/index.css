@@ -27,8 +27,12 @@
   .nav-links ul li a, .nav-btns .login-btn{
     font-size: 1.3rem;
   }
-  .nav-links ul{
-    width: 15rem;
+  .nav-links{
+    margin-right: 12rem;
+
+    ul{
+      width: 15rem;
+    }
   }
   .logo {
     img{
