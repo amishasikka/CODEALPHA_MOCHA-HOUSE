@@ -16,15 +16,11 @@ export default function Navbar(){
                         </ul>
                     </div>
 
-                    <div className="menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-
                     <div className="nav-btns">
                         <Link to="/login" className="login-btn">login</Link>
                     </div>
+
+                    <div className="menu"></div>
                     
                 </div>
             </section>
