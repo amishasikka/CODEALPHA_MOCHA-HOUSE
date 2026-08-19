@@ -16,6 +16,15 @@ export default function Navbar(){
                         </ul>
                     </div>
 
+                    <div className="mobile-menu">
+                        <ul>
+                            <li><Link to="/">home</Link></li>
+                            <li><Link to="/products">menu</Link></li>
+                            <li><Link to="/cart">cart</Link></li>
+                            <li><Link to="/login">login</Link></li>
+                        </ul>
+                    </div>
+
                     <div className="nav-btns">
                         <Link to="/login" className="login-btn">login</Link>
                     </div>
