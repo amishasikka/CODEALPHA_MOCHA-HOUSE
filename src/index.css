@@ -18,6 +18,9 @@
     color: var(--ivory);
     border-radius: 0.5rem;
   }
+  .menu{
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {

@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 200;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -11,12 +18,13 @@
   --cream: #F6EFE8;
   --ivory: #FFF9F3;
   --normal-font: 'Poppins', sans-serif;
-  --coffee-font: playfair-display, serif;
+  --coffee-font: 'Playfair Display', serif;
 }
 
 body {
   background: url("/src/assets/banner.png") no-repeat;
   background-size: cover;
+  font-family: 'Pacifico', cursive;
 }
 
 @media (min-width: 375px) {
