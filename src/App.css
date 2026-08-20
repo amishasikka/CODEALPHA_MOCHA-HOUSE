@@ -80,8 +80,7 @@ body {
     width: 100vw;
     height: 100vh;
     padding: 2rem;
-    background-color: var(--espresso);
-    opacity: 0.5;
+    background-color: rgba(59, 36, 24, 0.5);
     border: 1px solid var(--mocha);
     transform: translateY(-100%);
     transition: transform 0.5s ease;
@@ -92,7 +91,7 @@ body {
       list-style:none;
       display:flex;
       flex-direction:column;
-      gap: 5.5rem;
+      gap: 3.5rem;
       align-items:center;
       width: 100%;
       justify-content:center;
@@ -111,8 +110,9 @@ body {
       }
 
       li img{
-          width: 16rem;
+          width: 24rem;
           height: auto;
+
       }
     }
   }

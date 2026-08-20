@@ -25,7 +25,7 @@ export default function Navbar(){
                             <li><Link to="/products">menu</Link></li>
                             <li><Link to="/cart">cart</Link></li>
                             <li><Link to="/login">login</Link></li>
-                            <li><img src="/src/assets/menu-logo.png" alt="coffee logo" /></li>
+                            <li><img src="/src/assets/mobile-menu-logo.png" alt="coffee logo" /></li>
                         </ul>
                     </div>
 
