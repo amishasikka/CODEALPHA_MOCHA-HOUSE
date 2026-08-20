@@ -109,6 +109,11 @@ body {
         color: var(--caramel);
         text-decoration: wavy underline;
       }
+
+      li img{
+          width: 16rem;
+          height: auto;
+      }
     }
   }
 
