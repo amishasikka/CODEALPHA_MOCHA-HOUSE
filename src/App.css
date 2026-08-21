@@ -22,7 +22,7 @@
 }
 
 body {
-  background: url("/src/assets/banner.png") no-repeat;
+  background: url("/src/assets/hero-img.png") no-repeat;
   background-size: cover;
   font-family: 'Pacifico', cursive;
 }
@@ -58,7 +58,7 @@ body {
   .nav-links ul {
     list-style: none;
   }
-  .nav-links ul li a , .nav-btns .login-btn{
+  .nav-links ul li a {
     text-decoration: none;
     color: var(--mocha);
     font-weight: 600;

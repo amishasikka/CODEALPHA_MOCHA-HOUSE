@@ -9,6 +9,9 @@
     width: 12rem;
     justify-content: space-between;
   }
+  .nav-btns .login-btn{
+    color: var(--cream);
+  }
   .nav-links ul li a:hover{
     color: var(--espresso);
     text-decoration:wavy underline;
