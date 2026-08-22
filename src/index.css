@@ -1,7 +1,4 @@
 @media (min-width: 768px) {
-  section{
-    padding: 2rem 3rem;
-  }
   .nav-links, .nav-btns {
     display: block;
   }
@@ -37,7 +34,7 @@
 
 @media (min-width: 1024px) {
   section{
-    padding: 2rem 6rem;
+    padding: 0 6rem 2rem 6rem;
   }
   .nav-links ul li a, .nav-btns .login-btn{
     font-size: 1.1rem;
