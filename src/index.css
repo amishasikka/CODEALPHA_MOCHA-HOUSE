@@ -11,15 +11,24 @@
   }
   .nav-btns .login-btn{
     color: var(--cream);
+    text-decoration: none;
+    border: 2px solid var(--cream);
+    border-radius: 1.5rem;
+  }
+  .nav-links ul li a{
+    font-size: 14px;
+    padding: 0.5rem 1rem;
   }
   .nav-links ul li a:hover{
     color: var(--espresso);
-    text-decoration:wavy underline;
+    border-top: 2px solid var(--espresso);
+    border-right: 2px solid var(--espresso);
+    border-radius: 1.5rem;
+    
   }
   .login-btn:hover{
     background-color: var(--espresso);
     color: var(--ivory);
-    border-radius: 0.5rem;
   }
   .menu{
     display: none;
@@ -31,7 +40,7 @@
     padding: 2rem 6rem;
   }
   .nav-links ul li a, .nav-btns .login-btn{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .nav-links{
     margin-right: 12rem;

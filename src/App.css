@@ -1,10 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-.pacifico-regular {
-  font-family: "Pacifico", cursive;
-  font-weight: 200;
-  font-style: normal;
-}
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +17,6 @@
 body {
   background: url("/src/assets/hero-img.png") no-repeat;
   background-size: cover;
-  font-family: 'Pacifico', cursive;
 }
 
 @media (min-width: 375px) {
@@ -62,7 +54,7 @@ body {
     text-decoration: none;
     color: var(--mocha);
     font-weight: 600;
-    font-size: 1.06rem;
+    font-size: 0.8rem;
     letter-spacing: .5px;
   }
   .nav-btns .login-btn{
@@ -99,16 +91,16 @@ body {
       list-style:none;
       display:flex;
       flex-direction:column;
-      gap: 3.5rem;
+      gap: 2.5rem;
       align-items:center;
       width: 100%;
       justify-content:center;
-      padding-top: 5rem;
+      padding-top: 2rem;
  
       li a{
         text-decoration: none;
         color: var(--ivory);
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         font-weight: 600;
       }
 
