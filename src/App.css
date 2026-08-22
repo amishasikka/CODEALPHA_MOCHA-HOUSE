@@ -39,6 +39,7 @@ body {
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    margin-top: 0.8rem;
   }
 
   .logo {
@@ -63,6 +64,8 @@ body {
   }
   .nav-btns .login-btn{
     padding: 0.5rem 1.5rem;
+    display: flex;
+    gap: 0.3rem;
   }
 
   .menu{
@@ -103,14 +106,13 @@ body {
  
       li a{
         text-decoration: none;
-        color: var(--ivory);
-        font-size: 1.1rem;
-        font-weight: 600;
+        color: var(--cards);
+        font-size: 1rem;
       }
 
       li a:hover{
-        color: var(--caramel);
-        text-decoration: wavy underline;
+        color: var(--main-text);
+        border-bottom: 2px solid var(--accent);
       }
 
       li img{

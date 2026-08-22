@@ -3,29 +3,22 @@
     display: block;
   }
   .nav-links ul{
-    width: 12rem;
+    width: 16rem;
     justify-content: space-between;
   }
   .nav-btns .login-btn{
-    color: var(--cream);
+    color: var(--cards);
     text-decoration: none;
-    border: 2px solid var(--cream);
+    background-color: var(--primary-brown);
     border-radius: 1.5rem;
   }
   .nav-links ul li a{
     font-size: 14px;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0;
   }
   .nav-links ul li a:hover{
-    color: var(--espresso);
-    border-top: 2px solid var(--espresso);
-    border-right: 2px solid var(--espresso);
-    border-radius: 1.5rem;
-    
-  }
-  .login-btn:hover{
-    background-color: var(--espresso);
-    color: var(--ivory);
+    color: var(--main-text);
+    border-bottom: 2px solid var(--accent);
   }
   .menu{
     display: none;
@@ -34,21 +27,21 @@
 
 @media (min-width: 1024px) {
   section{
-    padding: 0 6rem 2rem 6rem;
+    padding: 0 6rem 0 6rem;
   }
   .nav-links ul li a, .nav-btns .login-btn{
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .nav-links{
     margin-right: 12rem;
 
     ul{
-      width: 15rem;
+      width: 18rem;
     }
   }
   .logo {
     img{
-      width: 9rem;
+      width: 12rem;
       }
     }
 }
