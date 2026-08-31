@@ -18,12 +18,15 @@
 }
 
 body {
-  background: url("/src/assets/heroo.png") no-repeat;
-  background-size: cover;
   font-family: var(--normal-font);
 }
 
 @media (min-width: 375px) {
+  .home{
+    background: url("/src/assets/heroVr.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
   section {
     padding: 0 1.5rem 1rem 1.5rem;
     background-color: var(--cards);
@@ -35,6 +38,10 @@ body {
     display: flex;
   }
 
+  .navbar{
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+    z-index: 1000;
+  }
   .nav {
     width: 100%;
     align-items: center;
