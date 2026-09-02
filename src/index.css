@@ -4,6 +4,7 @@
     background: url("/src/assets/heroHr.png") no-repeat;
     background-size: cover;
     height: 100vh;
+    background-position: right;
   }
   .nav-links, .nav-btns {
     display: block;
@@ -19,7 +20,6 @@
     border-radius: 1.5rem;
   }
   .nav-links ul li a{
-    font-size: 14px;
     padding: 0.5rem 0;
   }
   .nav-links ul li a:hover{
@@ -34,9 +34,6 @@
 @media (min-width: 1024px) {
   section{
     padding: 0 6rem 0 6rem;
-  }
-  .nav-links ul li a, .nav-btns .login-btn{
-    font-size: 1rem;
   }
   .nav-links{
     margin-right: 12rem;
