@@ -13,8 +13,8 @@
   --cards: #FFFFFF;          /* white */
   --secondary-text: #5F554E; /* warm gray */
   --green-element: #607A4C;  /* sage/leaf */
-  --normal-font: 'Poppins';
-  --coffee-font: 'Playfair Display', serif;
+  --normal-font: 'Poppins', sans-serif;
+  --coffee-font: 'Playfair Display', sans-serif;
 }
 
 body {
@@ -22,16 +22,12 @@ body {
 }
 
 @media (min-width: 375px) {
-  .home{
-    background: url("/src/assets/heroVr.png") no-repeat;
-    background-size: cover;
-    height: 100vh;
-  }
   section {
     padding: 0 1.5rem 1rem 1.5rem;
     background-color: var(--cards);
   }
 
+  /* Navbar Section Starts */
   .navbar,
   .nav,
   ul {
@@ -45,7 +41,6 @@ body {
     backdrop-filter: blur(45px);
     position: sticky;
     top:0;
-
   }
   .nav { 
     width: 100%;
@@ -71,8 +66,14 @@ body {
   .nav-links ul li a {
     text-decoration: none;
     color: var(--mocha);
-    font-size: 15px;
-    letter-spacing: .5px;
+  }
+
+  .nav-links ul li a, .nav-btns .login-btn{
+    font-size: 14px;
+    font-family: monospace;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
   }
   .nav-btns .login-btn{
     padding: 0.5rem 1.5rem;
@@ -142,4 +143,51 @@ body {
   .mobile-menu.open{
     transform: translateY(0);
   }
+  /* Navbar Section Ends */
+
+  /* Home Section Starts */
+  .home{
+    background: url("/src/assets/heroVr.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    height: 100%;
+    width: 50%;
+  }
+
+  .welcome-text{
+    font-family: var(--normal-font);
+    letter-spacing: 20%;
+    font-weight: 500;
+  }
+  .hero-heading{
+    font-family: Playfair Display, serif;
+    font-size: 4.5rem;
+  }
+  .hero-subheading{
+    font-family: monospace;
+    font-size: 1.1rem;
+    line-height: 18%;
+  }
+  .hero-button{
+    padding: 1rem 2.5rem;
+    font-family: monospace;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border:none;
+    background-color: var(--cards);
+    border-radius: 1.5rem;
+  }
+
+
+  /* Home Section Ends */
+
+
 }
