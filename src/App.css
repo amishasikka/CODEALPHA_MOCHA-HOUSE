@@ -155,34 +155,37 @@ body {
   .hero-content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
     text-align: start;
     height: 100%;
-    width: 50%;
+    width: 100%;
+    gap:1.2rem;
   }
 
   .welcome-text{
+    margin-top: 6rem;
     font-family: var(--normal-font);
     letter-spacing: 20%;
     font-weight: 500;
   }
   .hero-heading{
     font-family: Playfair Display, serif;
-    font-size: 4.5rem;
+    font-size: 2.5rem;
   }
   .hero-subheading{
     font-family: monospace;
     font-size: 1.1rem;
-    line-height: 18%;
+    line-height: 1.5rem;
   }
   .hero-button{
-    padding: 1rem 2.5rem;
+    padding: 1rem 1.5rem;
     font-family: monospace;
     font-size: 1.1rem;
     font-weight: 500;
     border:none;
-    background-color: var(--cards);
+    color: var(--cards);
+    background-color: var(--main-text);
     border-radius: 1.5rem;
   }
 
