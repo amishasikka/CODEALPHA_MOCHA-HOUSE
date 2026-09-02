@@ -13,6 +13,10 @@
     width: 16rem;
     justify-content: space-between;
   }
+  .nav-links ul li a, .nav-btns .login-btn{
+    font-size: 1rem;
+    font-weight: 400;
+  }
   .nav-btns .login-btn{
     color: var(--cards);
     text-decoration: none;
@@ -29,6 +33,24 @@
   .menu{
     display: none;
   }
+
+  .hero-content{
+    width:50%;
+    justify-content: center;
+  }
+  .welcome-text{
+    margin-top: 0;
+  }
+  .hero-heading{
+    font-size: 3.5rem;
+  }
+  .hero-subheading{
+    line-height: 2rem;
+  }
+  .hero-button{
+    padding: 1rem 2.5rem;
+  }
+
 }
 
 @media (min-width: 1024px) {
