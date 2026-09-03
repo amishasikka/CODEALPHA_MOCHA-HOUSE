@@ -16,7 +16,7 @@ export default function Navbar(){
             <section className="navbar">
                 <div className="nav">
                     <Link to="/" className="logo">
-                        <img src="/src/assets/loogo.png" alt="Coffee Logo"/>
+                        <img src="/src/assets/logo.png" alt="Coffee Logo"/>
                     </Link>
                     <div className="nav-links">
                         <ul>
@@ -37,8 +37,8 @@ export default function Navbar(){
                     </div>
 
                     <div className="nav-btns">
+                        <CircleUser strokeWidth={2} color="var(--dark)" className="login-icon" />
                         <Link to="/login" className="login-btn">
-                            <CircleUser size={18} strokeWidth={2} color="var(--cards)" />
                             login
                         </Link>
                     </div>
