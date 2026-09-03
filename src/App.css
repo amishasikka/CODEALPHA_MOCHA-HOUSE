@@ -22,9 +22,14 @@ body {
 }
 
 @media (min-width: 375px) {
+
+  body{
+    background: url("/src/assets/heroVr.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
   section {
     padding: 0 1.5rem 1rem 1.5rem;
-    background-color: var(--cards);
   }
 
   /* Navbar Section Starts */
@@ -35,10 +40,6 @@ body {
   }
 
   .navbar{
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
-    z-index: 1000;
-    -webkit-backdrop-filter: blur(45px);
-    backdrop-filter: blur(45px);
     position: sticky;
     top:0;
   }
@@ -65,7 +66,7 @@ body {
   }
   .nav-links ul li a {
     text-decoration: none;
-    color: var(--mocha);
+    color: var(--cards);
   }
 
   .nav-links ul li a, .nav-btns .login-btn{
@@ -146,11 +147,9 @@ body {
   /* Navbar Section Ends */
 
   /* Home Section Starts */
-  .home{
-    background: url("/src/assets/heroVr.png") no-repeat;
-    background-size: cover;
-    height: 100vh;
-  }
+  /* .home{
+    
+  } */
 
   .hero-content{
     display: flex;
@@ -161,6 +160,7 @@ body {
     height: 100%;
     width: 100%;
     gap:1.2rem;
+    color: var(--cards);
   }
 
   .welcome-text{
@@ -184,8 +184,8 @@ body {
     font-size: 1.1rem;
     font-weight: 500;
     border:none;
-    color: var(--cards);
-    background-color: var(--main-text);
+    color: var(--main-text);
+    background-color: var(--cards);
     border-radius: 1.5rem;
   }
 
