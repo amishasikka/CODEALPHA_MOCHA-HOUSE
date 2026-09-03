@@ -11,7 +11,7 @@ export default function Product(){
                                 <img src="/src/assets/products/p1.png" className="product-img" alt="Product 1" />
                             </div>
                             <div className="product-info">
-                                <div className="product-name">cofee</div>
+                                <div className="product-name"></div>
                                 <div className="product-price"></div>
                             </div>
                         </div>
