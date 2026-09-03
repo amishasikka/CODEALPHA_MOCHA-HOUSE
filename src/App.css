@@ -38,10 +38,10 @@ body {
     display: flex;
   }
 
-  .navbar{
+  /* .navbar{
     position: sticky;
     top:0;
-  }
+  } */
   .nav { 
     width: 100%;
     align-items: center;
@@ -184,21 +184,32 @@ body {
   /* Product Section Starts */
 
   .product-section{
-    margin-top: 35%;
+    margin-top: 61%;
   }
   .product-container,
   .products,
   .product-card,
   .product-image,
   .product-info,
-  .product-name,
-  .product-price{
+  .product-title,
+  .product-price-order{
     display: flex;
+  }
+
+  .product-container,
+  .product-image{
+    justify-content: center;
+  }
+
+  .product-card,
+  .product-info,
+  .product-title{
+    flex-direction: column;
   }
 
   .product-heading{
     font-family: Playfair Display, serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: 4%;
     margin-bottom: 8%;

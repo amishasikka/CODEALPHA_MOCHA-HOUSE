@@ -51,6 +51,11 @@
     margin-top: 35%;
   }
 
+  .product-container{
+    justify-content: space-between;
+    /* gap: 1rem; */
+  }
+
   .product-heading{
     font-size: 2rem;
     margin-bottom: 8%;
