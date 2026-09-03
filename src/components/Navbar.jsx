@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import {
-    CircleUser,
     ShoppingBag,
     Coffee,
     Heart,
     Leaf,
-    ArrowRight
+    ArrowRight,
+    UserRound
 } from "lucide-react";
 export default function Navbar(){
 
@@ -37,9 +37,8 @@ export default function Navbar(){
                     </div>
 
                     <div className="nav-btns">
-                        <CircleUser strokeWidth={2} color="var(--dark)" className="login-icon" />
-                        <Link to="/login" className="login-btn">
-                            login
+                        <Link to="/login">
+                            <UserRound strokeWidth={2} color="var(--dark)" className="login-icon" />
                         </Link>
                     </div>
 

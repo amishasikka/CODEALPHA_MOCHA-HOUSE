@@ -68,7 +68,7 @@ body {
     color: var(--cards);
   }
 
-  .nav-links ul li a, .nav-btns .login-btn{
+  .nav-links ul li a{
     font-size: 14px;
     font-family: monospace;
     letter-spacing: 1px;

@@ -10,13 +10,9 @@
     width: 16rem;
     justify-content: space-between;
   }
-  .nav-links ul li a, .nav-btns .login-btn{
+  .nav-links ul li a{
     font-size: 0.8rem;
     font-weight: 400;
-  }
-  .nav-btns .login-btn{
-    color: var(--cards);
-    text-decoration: none;
   }
   .nav-links ul li a{
     padding: 0.5rem 0;
@@ -29,6 +25,8 @@
     background: var(--cards);
     padding: 0.2rem;
     border-radius: 50%;
+    width: 1.8rem;
+    height: 1.8rem;
   }
   .menu{
     display: none;
