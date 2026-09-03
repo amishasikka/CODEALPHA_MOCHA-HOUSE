@@ -16,7 +16,7 @@ export default function Navbar(){
             <section className="navbar">
                 <div className="nav">
                     <Link to="/" className="logo">
-                        <img src="/src/assets/logos.png" alt="Coffee Logo"/>
+                        <img src="/src/assets/loogo.png" alt="Coffee Logo"/>
                     </Link>
                     <div className="nav-links">
                         <ul>
