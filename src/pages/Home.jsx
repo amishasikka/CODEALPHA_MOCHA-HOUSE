@@ -1,3 +1,5 @@
+import Product from "./Product";
+
 export default function Home(){
     return (
         <>
@@ -9,6 +11,7 @@ export default function Home(){
                     <button className="hero-button">Order Now</button>
                 </div>
             </section>
+            <Product/>
         </>
     )
 }
