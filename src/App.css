@@ -5,6 +5,7 @@
 }
 
 :root {
+  --dark: black;
   --main-bg: #F8F3EC;        /* warm ivory */
   --main-text: #24140D;      /* espresso */
   --primary-brown: #5A2D16;  /* coffee brown */
@@ -19,15 +20,13 @@
 
 body {
   font-family: var(--normal-font);
+  background: url("/src/assets/hero.png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: right
 }
 
 @media (min-width: 375px) {
-
-  body{
-    background: url("/src/assets/heroVr.png") no-repeat;
-    background-size: cover;
-    height: 100vh;
-  }
   section {
     padding: 0 1.5rem 1rem 1.5rem;
   }
@@ -76,11 +75,6 @@ body {
     text-transform: uppercase;
     font-weight: 600;
   }
-  .nav-btns .login-btn{
-    padding: 0.5rem 1.5rem;
-    display: flex;
-    gap: 0.3rem;
-  }
 
   .menu{
     cursor: pointer;
@@ -89,7 +83,7 @@ body {
     z-index: 1001;
 
     img{
-      width: 2.5rem;
+      width: 1.5rem;
       height: auto;
     }
   }
@@ -147,9 +141,6 @@ body {
   /* Navbar Section Ends */
 
   /* Home Section Starts */
-  /* .home{
-    
-  } */
 
   .hero-content{
     display: flex;
@@ -162,26 +153,26 @@ body {
     gap:1.2rem;
     color: var(--cards);
   }
-
   .welcome-text{
     margin-top: 6rem;
     font-family: var(--normal-font);
     letter-spacing: 20%;
     font-weight: 500;
+    font-size: 0.7rem;
   }
   .hero-heading{
     font-family: Playfair Display, serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .hero-subheading{
     font-family: monospace;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     line-height: 1.5rem;
   }
   .hero-button{
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 1rem;
     font-family: monospace;
-    font-size: 1.1rem;
+    font-size: 0.7rem;
     font-weight: 500;
     border:none;
     color: var(--main-text);
