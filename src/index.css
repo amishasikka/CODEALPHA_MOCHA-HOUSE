@@ -1,11 +1,17 @@
 @media (min-width: 768px) {
 
-  .home{
-    background: url("/src/assets/heroHr.png") no-repeat;
+  body{
+    background: url("/src/assets/heroo.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: right
+  }
+  /* .home{
+    background: url("/src/assets/heroo.png") no-repeat;
     background-size: cover;
     height: 100vh;
     background-position: right;
-  }
+  } */
   .nav-links, .nav-btns {
     display: block;
   }
