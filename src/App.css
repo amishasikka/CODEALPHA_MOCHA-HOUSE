@@ -30,7 +30,7 @@ body {
 
 @media (min-width: 375px) {
   section {
-    padding: 0 1.5rem 1rem 1.5rem;
+    padding: 2rem 1.5rem 2rem 1.5rem;
   }
 
   /* Navbar Section Starts */
@@ -144,6 +144,9 @@ body {
 
 
   /* Home Section Starts */
+  /* .home{
+    margin-bottom: 33%;
+  } */
   .hero-content{
     display: flex;
     flex-direction: column;
@@ -180,13 +183,14 @@ body {
     color: var(--main-text);
     background-color: var(--cards);
     border-radius: 1.5rem;
+    margin-bottom: 29%;
   }
   /* Home Section Ends */
 
   /* Product Section Starts */
 
   .product-section{
-    margin-top: 61%;
+    background-color: rgba(226, 217, 200, 0.2);
   }
   .product-container,
   .products,
@@ -224,6 +228,7 @@ body {
     padding: 1rem;
     width: 80%;
     border-radius: 2%;
+    background-color: rgba(226, 217, 200, 0.2);
   }
     .product-image{
       position: relative;
