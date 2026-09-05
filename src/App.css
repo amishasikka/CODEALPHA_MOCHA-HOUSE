@@ -10,7 +10,7 @@
   --main-text: #24140D;      /* espresso */
   --primary-brown: #5A2D16;  /* coffee brown */
   --accent: #B9682E;         /* caramel */
-  --light-accent: #E2D9C8;   /* cream */
+  --light-accent: #deccac;   /* cream */
   --cards: #FFFFFF;          /* white */
   --secondary-text: #5F554E; /* warm gray */
   --green-element: #607A4C;  /* sage/leaf */
@@ -22,15 +22,20 @@
 
 body {
   font-family: var(--normal-font);
+  background-color: var(--main-bg);
+  
+}
+
+.hero-wrapper{
   background: url("/src/assets/hero.png") no-repeat;
   background-size: cover;
-  height: 100vh;
-  background-position: right
+  background-position: right;
+  min-height: 100vh;
 }
 
 @media (min-width: 375px) {
   section {
-    padding: 2rem 1.5rem 2rem 1.5rem;
+    padding: 2rem 1.5rem;
   }
 
   /* Navbar Section Starts */
@@ -39,16 +44,10 @@ body {
   ul {
     display: flex;
   }
-
-  /* .navbar{
-    position: sticky;
-    top:0;
-  } */
   .nav { 
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    margin-top: 0.8rem;
   }
 
   .logo {
@@ -144,9 +143,6 @@ body {
 
 
   /* Home Section Starts */
-  /* .home{
-    margin-bottom: 33%;
-  } */
   .hero-content{
     display: flex;
     flex-direction: column;
@@ -159,7 +155,7 @@ body {
     color: var(--cards);
   }
   .welcome-text{
-    margin-top: 6rem;
+    margin-top: 20%;
     font-family: var(--normal-font);
     letter-spacing: 20%;
     font-weight: 500;
@@ -183,14 +179,13 @@ body {
     color: var(--main-text);
     background-color: var(--cards);
     border-radius: 1.5rem;
-    margin-bottom: 29%;
   }
   /* Home Section Ends */
 
   /* Product Section Starts */
-
   .product-section{
     background-color: rgba(226, 217, 200, 0.2);
+    min-height:100vh;
   }
   .product-container,
   .products,
@@ -219,7 +214,7 @@ body {
     font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: 4%;
-    margin-bottom: 8%;
+    margin: 4% 0 8% 0;
     text-align: center;
   }
 
@@ -236,7 +231,7 @@ body {
       height: 100%;
 
       .product-img{
-        width:234px;
+        width:80%;
         height: auto;
         border-radius: 2%;
       }
@@ -254,16 +249,12 @@ body {
         color: var(--primary-brown);
       }
       .product-description{
-        /* font-size: 1.2rem; */
         line-height: 1.8rem;
       }
       .product-price{
-        /* font-size: 1.2rem; */
         font-weight: 600;
-        /* line-height: 1.9rem; */
       }
       .order-button{
-        /* font-size: 0.9rem; */
         font-weight: 500;
       }
       .product-description, .product-price, .order-button{
