@@ -36,6 +36,9 @@
     width:50%;
     justify-content: center;
   }
+  .welcome-text{
+    margin-top: 45%;
+  }
   .hero-heading{
     font-size: 3rem;
   }
@@ -48,12 +51,11 @@
 
 
   .product-section{
-    margin-top: 35%;
+    margin-top: 30%;
   }
 
   .product-container{
     justify-content: space-between;
-    /* gap: 1rem; */
   }
 
   .product-heading{
@@ -83,6 +85,33 @@
     padding: 0.8rem 2rem;
     font-size: 0.9rem;
    }
+   .welcome-text{
+    margin-top: 60%;
+  }
+
+
+  .product-section{
+    margin-top: 20%;
+  }
+  .product-image{
+    .product-img{
+      width:334px;
+      height:auto;
+    }
+  }
+  .product-name{
+    font-size: 1.6rem;
+  }
+  .product-description{
+    font-size: 1.2rem;
+  }
+  .product-price{
+    font-size: 1.2rem;
+  }
+  .order-button{
+    font-size: 0.9rem;
+  }
+
 }
 
 
