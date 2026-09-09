@@ -35,7 +35,7 @@ body {
 
 @media (min-width: 375px) {
   section {
-    padding: 2rem 1.5rem;
+    padding: 2rem 3rem;
   }
 
   /* Navbar Section Starts */
@@ -196,9 +196,13 @@ body {
   .product-price-order{
     display: flex;
   }
+  .products{
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+  }
 
   .product-container,
-  .products,
   .product-image{
     justify-content: center;
   }
@@ -221,17 +225,18 @@ body {
   .product-card{
     border: 2px solid var(--light-accent);
     padding: 1rem;
-    width: 80%;
+    width: 100%;
+    max-width: 300px;
     border-radius: 2%;
     background-color: rgba(226, 217, 200, 0.2);
   }
     .product-image{
       position: relative;
       width: 100%;
-      height: 100%;
+      height: auto;
 
       .product-img{
-        width:80%;
+        width:270px;
         height: auto;
         border-radius: 2%;
       }
