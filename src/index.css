@@ -49,16 +49,237 @@
   /* Home Section Ends */
 
   /* Product Section Starts */
-  .products{
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 2rem;
-  }
   .product-heading{
     font-size: 1.5rem;
     margin: 2% 0 8% 0;
   }
   /* Product Section Ends */
+
+  /* Product Details Section Starts */
+
+.product-details-container {
+    gap: 3rem;
+}
+
+.product-details-name {
+    font-size: 2.5rem;
+}
+/* Product Details Section Ends */
+
+/* Product Details Section Starts */
+
+.product-details {
+    min-height: 100vh;
+
+    padding: 3rem 4rem;
+}
+
+.details-back-link {
+    margin-bottom: 2.5rem;
+
+    font-size: 0.8rem;
+}
+
+.product-details-container {
+    flex-direction: row;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 4rem;
+
+    max-width: 1000px;
+
+    margin: auto;
+}
+
+.product-details-image {
+    width: 50%;
+}
+
+.image-background {
+    max-width: 350px;
+}
+
+.product-details-info {
+    width: 50%;
+
+    gap: 1rem;
+}
+
+.product-details-name {
+    font-size: 3rem;
+}
+
+.product-details-price {
+    font-size: 1.6rem;
+}
+
+.product-details-description {
+    font-size: 0.9rem;
+
+    line-height: 1.8rem;
+}
+
+.product-details-extra {
+    gap: 1.5rem;
+}
+
+.details-actions {
+    margin-top: 1.2rem;
+}
+
+.add-cart-button {
+    width: fit-content;
+
+    padding: 0.9rem 2.5rem;
+}
+
+/* Product Details Section Ends */
+
+/* Cart Section Starts */
+
+.cart-section {
+    padding: 3rem 4rem;
+}
+
+.cart-heading {
+    margin-bottom: 2.5rem;
+}
+
+.cart-heading h1 {
+    font-size: 3rem;
+}
+
+.cart-container {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.cart-items {
+    flex: 1;
+}
+
+.cart-item {
+    padding: 1.2rem;
+}
+
+.cart-item-image {
+    width: 100px;
+    height: 100px;
+}
+
+.cart-item-info h2 {
+    font-size: 1.2rem;
+}
+
+.cart-item-total {
+    position: static;
+    font-size: 0.9rem;
+}
+
+.cart-summary {
+    width: 320px;
+    flex-shrink: 0;
+    padding: 2rem;
+}
+
+.cart-summary h2 {
+    font-size: 1.6rem;
+}
+
+.checkout-button {
+    padding: 0.95rem 1rem;
+}
+
+/* Cart Section Ends */
+
+/* Checkout Section Starts */
+
+.checkout-section {
+    padding: 3rem 4rem;
+}
+
+.checkout-heading h1 {
+    font-size: 3rem;
+}
+
+.checkout-container {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.checkout-form {
+    flex: 1;
+}
+
+.checkout-form-section {
+    padding: 1.8rem;
+}
+
+.form-row {
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+.checkout-summary {
+    width: 320px;
+    flex-shrink: 0;
+    padding: 2rem;
+}
+
+.checkout-summary h2 {
+    font-size: 1.6rem;
+}
+
+/* Checkout Section Ends */
+
+/* Authentication Section Starts */
+
+.auth-section {
+    padding: 3rem 4rem;
+}
+
+.auth-container {
+    flex-direction: row;
+    align-items: stretch;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.auth-brand {
+    width: 45%;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.auth-brand h1 {
+    font-size: 2.3rem;
+}
+
+.auth-form-container {
+    width: 55%;
+    padding: 1.5rem 2rem;
+}
+
+.auth-heading h2 {
+    font-size: 2.5rem;
+}
+
+/* Authentication Section Ends */
 }
 
 @media (min-width: 1024px) {
@@ -113,6 +334,152 @@
     font-size: 0.9rem;
   }
   /* Product Section Ends */
+
+  /* Product Details Section Starts */
+
+.product-details {
+    padding: 4rem 6rem;
+}
+
+.details-back-link {
+    margin-bottom: 3rem;
+}
+
+.product-details-container {
+    gap: 6rem;
+
+    max-width: 1200px;
+}
+
+.product-details-image {
+    width: 48%;
+}
+
+.image-background {
+    max-width: 480px;
+}
+
+.product-details-info {
+    width: 45%;
+
+    gap: 1rem;
+}
+
+.product-category {
+    font-size: 0.75rem;
+}
+
+.product-details-name {
+    font-size: 4rem;
+
+    max-width: 500px;
+}
+
+.product-details-price {
+    font-size: 1.8rem;
+}
+
+.product-details-description {
+    font-size: 1rem;
+
+    line-height: 2rem;
+
+    max-width: 500px;
+}
+
+.product-details-extra {
+    gap: 2rem;
+}
+
+.product-details-extra p {
+    font-size: 0.75rem;
+}
+
+.add-cart-button {
+    padding: 0.95rem 3rem;
+
+    font-size: 0.85rem;
+}
+
+/* Product Details Section Ends */
+
+/* Cart Section Starts */
+
+.cart-section {
+    padding: 4rem 6rem;
+}
+
+.cart-heading h1 {
+    font-size: 4rem;
+}
+
+.cart-container {
+    max-width: 1200px;
+    gap: 5rem;
+}
+
+.cart-summary {
+    width: 350px;
+    padding: 2.2rem;
+}
+
+/* Cart Section Ends */  
+
+/* Checkout Section Starts */
+
+.checkout-section {
+    padding: 4rem 6rem;
+}
+
+.checkout-heading h1 {
+    font-size: 4rem;
+}
+
+.checkout-container {
+    max-width: 1200px;
+    gap: 5rem;
+}
+
+.checkout-summary {
+    width: 350px;
+    padding: 2.2rem;
+}
+
+.checkout-form-section {
+    padding: 2rem;
+}
+
+/* Checkout Section Ends */
+
+/* Authentication Section Starts */
+
+.auth-section {
+    padding: 4rem 6rem;
+}
+
+.auth-container {
+    max-width: 1150px;
+}
+
+.auth-brand {
+    width: 48%;
+    padding: 3.5rem;
+}
+
+.auth-brand h1 {
+    font-size: 3rem;
+}
+
+.auth-form-container {
+    width: 52%;
+    padding: 2rem 3.5rem;
+}
+
+.auth-heading h2 {
+    font-size: 3rem;
+}
+
+/* Authentication Section Ends */
 
 }
 
