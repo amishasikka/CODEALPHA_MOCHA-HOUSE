@@ -12,20 +12,15 @@ export default function Product(){
                 Our Products
             </h2>
             <div className="product-container">
-
                 <div className="products">
-
                     {products.map((product) => (
                         <ProductCard
                             key={product.id}
                             product={product}
                         />
                     ))}
-
                 </div>
-
             </div>
-
         </section>
         </>
     )

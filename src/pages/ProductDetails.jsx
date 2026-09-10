@@ -1,5 +1,5 @@
 import { useParams, Link, useNavigate } from "react-router-dom";
-import { Coffee, Leaf, ArrowLeft, Star, ShoppingBag } from "lucide-react";
+import { Coffee, ArrowLeft, ShoppingBag } from "lucide-react";
 import products from "../data/product";
 import PageBanner from "../components/PageBanner";
 

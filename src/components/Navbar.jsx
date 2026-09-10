@@ -42,13 +42,13 @@ export default function Navbar() {
                     <div className="nav-btns">
                         {user ? (
                             <button className="logout-button" onClick={handleLogout}>
-                                <UserRound size={18} />
-                                <span>{user.name}</span>
-                                <LogOut size={16} />
+                                {/* <UserRound size={18} className="log-icon" color="var(--dark)" strokeWidth={2} /> */}
+                                <span className="username">Hey,{user.name}</span>
+                                <LogOut size={16} className="log-icon" color="var(--dark)" strokeWidth={2} />
                             </button>
                         ) : (
                             <Link to="/login">
-                                <UserRound strokeWidth={2} color="var(--dark)" className="login-icon" />
+                                <UserRound strokeWidth={2} color="var(--dark)" className="log-icon" />
                             </Link>
                         )}
                     </div>
