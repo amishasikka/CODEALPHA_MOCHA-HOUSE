@@ -1,6 +1,7 @@
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { Coffee, Leaf, ArrowLeft, Star, ShoppingBag } from "lucide-react";
 import products from "../data/product";
+import PageBanner from "../components/PageBanner";
 
 export default function ProductDetails() {
     const { id } = useParams();
@@ -39,6 +40,8 @@ export default function ProductDetails() {
     }
 
     return (
+        <>
+        <PageBanner title="Product Details" current="Product Details"/>
         <section className="product-details">
             <Link to="/products" className="details-back-link">
                 <ArrowLeft size={16} />
@@ -54,29 +57,9 @@ export default function ProductDetails() {
                 <div className="product-details-info">
                     <p className="product-category">{product.category}</p>
                     <h1 className="product-details-name">{product.name}</h1>
-                    <div className="details-rating">
-                        <div className="rating-stars">
-                            <Star size={15} fill="currentColor" />
-                            <Star size={15} fill="currentColor" />
-                            <Star size={15} fill="currentColor" />
-                            <Star size={15} fill="currentColor" />
-                            <Star size={15} fill="currentColor" />
-                        </div>
-                        <p>4.9 / 5</p>
-                    </div>
                     <h2 className="product-details-price">${product.price}</h2>
                     <div className="details-line"></div>
                     <p className="product-details-description">{product.description}</p>
-                    <div className="product-details-extra">
-                        <div>
-                            <span><Coffee size={16} strokeWidth={1.7} /></span>
-                            <p>Freshly Brewed</p>
-                        </div>
-                        <div>
-                            <span><Leaf size={16} strokeWidth={1.7} /></span>
-                            <p>Premium Ingredients</p>
-                        </div>
-                    </div>
                     <div className="details-actions">
                         <button className="add-cart-button" onClick={addToCart}>
                             <ShoppingBag size={17} />
@@ -86,5 +69,6 @@ export default function ProductDetails() {
                 </div>
             </div>
         </section>
+        </>
     )
 }
