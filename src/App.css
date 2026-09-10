@@ -227,12 +227,6 @@
             height: auto;
             border-radius: 2%;
         }
-        .heart-icon{
-            position: absolute;
-            right: 5%;
-            top: 7%;  
-            z-index: 1;
-        }
         }
         .product-description, .product-price, .order-button{
         font-family: var(--normal-font);
